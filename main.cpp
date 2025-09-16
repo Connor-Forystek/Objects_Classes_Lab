@@ -17,19 +17,18 @@ class BankAccount {
         string accountHolderName;
         double balance;
     public:
-    BankAccount(string number, string name, double amount) {}
+    BankAccount(string accountNumber, string accountHolderName, double balance) {}
     BankAccount();
     string name;
     string number;
-    double amount;
 
     //This section allows the user to get the account number
     string getAccountNumber() const {
-        return accountNumber;
+        return number;
     }
     //This section allows the user to get the account holder name
     string getAccountHolderName() const {
-        return accountHolderName;
+        return name;
     }
     //This section allows the user to get the balance
     double getBalance() const {
@@ -58,8 +57,8 @@ class BankAccount {
 //This section is the default constructor for the BankAccount class and holds the default value for the private variables
 BankAccount::BankAccount() {
     balance = 0;
-    accountNumber = "Unknown";
-    accountHolderName = "Unknown";
+    number = "Unknown";
+    name = "Unknown";
 }
 
 //This section displays the menu and makes sure that only digits are inputted
