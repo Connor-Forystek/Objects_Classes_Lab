@@ -93,6 +93,7 @@ int displayMenu() {
     return choice;
 }
 int main() {
+    //This section is where the vector account is initialized
     vector<BankAccount> account;
     BankAccount currentAccount;
     int input;
