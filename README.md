@@ -9,7 +9,7 @@ A C++ class for simulating basic banking operations for multiple accounts.
 | `accountNumber`           | `std::string` | The account's number.                  |
 | `account HolderName`      | `std::string` | The book's author.                     |
 | `name`                    | `std::string` | The name of the account.               |
-| `balance`    `            | `double`      | The # of money in the account.         |
+| `balance`                 | `double`      | The # of money in the account.         |
 | `number`                  | `std::string` | Used when changing account's number    |
 | `name`                    | `std::string` | Used when changing account's name      |
 
@@ -25,4 +25,4 @@ A C++ class for simulating basic banking operations for multiple accounts.
 | `setAccountHolderName()`             | `void`        | Changes account's holder's name.    |
 | `SetAccountNumber()`                 | `void`        | Changes account's number            |
 | `deposit()`                          | `void`        | Adds to balance                     |
-| 'withdraw()`                         | `void`        | Subtracts from balance              |
+| `withdraw()`                         | `void`        | Subtracts from balance              |
