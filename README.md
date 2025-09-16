@@ -12,7 +12,6 @@ A C++ class for simulating basic banking operations for multiple accounts.
 | `balance`    `            | `double`      | The # of money in the account.         |
 | `number`                  | `std::string` | Used when changing account's number    |
 | `name`                    | `std::string` | Used when changing account's name      |
-| `amount`                  | `std::string` | Used when changing account's balance   |
 
 ## Methods List
 
